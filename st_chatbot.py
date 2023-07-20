@@ -2,8 +2,8 @@ import streamlit as st
 
 prompt = st.chat_input("Say something")
 
-with st.chat_message("Here is my first Streamlit Chatbot")
-st.write(prompt)
+with st.chat_message("Here is my first Streamlit Chatbot"):
+ st.write(prompt)
 
 #if prompt:
  # conn = st.experimental_connection('snowpark')
