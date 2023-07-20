@@ -2,7 +2,7 @@ import streamlit as st
 
 prompt = st.chat_input("Say something")
 
-with st.chat_message("Here is my first Streamlit Chatbot"):
+with st.chat_message("user"):
  st.write(prompt)
 
 #if prompt:
