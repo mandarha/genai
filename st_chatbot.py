@@ -1,5 +1,5 @@
 import streamlit as st
 
-prompt = st.chart_input("Say something")
+prompt = st.chat_input("Say something")
 
 st.write(prompt)
